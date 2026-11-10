@@ -1,8 +1,3 @@
--- ============================================================
--- Recipe Box — database schema
--- MySQL / MariaDB
--- ============================================================
-
 CREATE DATABASE IF NOT EXISTS recipe_box
   CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 

@@ -2,10 +2,10 @@
 // ============================================================
 // Database connection settings — update these for your server
 // ============================================================
-define('DB_HOST', '192.160.0.4');
+define('DB_HOST', 'localhost');
 define('DB_NAME', 'recipe_box');
-define('DB_USER', 'admin');
-define('DB_PASS', 'n1tT4aGm!');
+define('DB_USER', 'username');
+define('DB_PASS', 'password');
 define('DB_CHARSET', 'utf8mb4');
 
 /**
