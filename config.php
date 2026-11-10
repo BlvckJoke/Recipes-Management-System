@@ -1,0 +1,26 @@
+<?php
+// ============================================================
+// Database connection settings — update these for your server
+// ============================================================
+define('DB_HOST', '192.160.0.4');
+define('DB_NAME', 'recipe_box');
+define('DB_USER', 'admin');
+define('DB_PASS', 'n1tT4aGm!');
+define('DB_CHARSET', 'utf8mb4');
+
+/**
+ * Returns a shared PDO connection.
+ */
+function get_pdo(): PDO {
+    static $pdo = null;
+    if ($pdo === null) {
+        $dsn = 'mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=' . DB_CHARSET;
+        $options = [
+            PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+            PDO::ATTR_EMULATE_PREPARES   => false,
+        ];
+        $pdo = new PDO($dsn, DB_USER, DB_PASS, $options);
+    }
+    return $pdo;
+}
