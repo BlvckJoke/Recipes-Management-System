@@ -42,8 +42,8 @@ This project demonstrates my practical web development skills through the develo
 ### Login
 ![Recipes Homepage](screenshots/login.png)
 
-### Homepage
-![Recipes Homepage](screenshots/Dashboard.png)
+### Dashboard
+![Recipes Dashboard](screenshots/Dashboard.png)
 
 ### Recipe Listing
 ![Recipe Listing](screenshots/Recipes_list.png)
