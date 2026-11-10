@@ -54,4 +54,7 @@ This project demonstrates my practical web development skills through the develo
 ### New Recipe
 ![New_Recipes](screenshots/New_Recipes.png)
 
+### New Category
+![New_Category](screenshots/New_category.png)
+
 
