@@ -37,3 +37,18 @@ This project demonstrates my practical web development skills through the develo
 
 **GitHub:** [BlvckJoke](https://github.com/BlvckJoke)
 
+## Screenshots
+
+### Login
+![Recipes Homepage](screenshots/login.png)
+
+### Homepage
+![Recipes Homepage](screenshots/Dashboard.png)
+
+### Recipe Listing
+![Recipe Listing](screenshots/Recipes_list.png)
+
+### Recipe Details
+![Recipe Details](screenshots/Pecipe_info.png)
+
+
